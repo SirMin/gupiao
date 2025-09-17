@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<memory>
+  <item id="mem_1758816995999_kxtccaf5m" time="2025/09/26 00:16">
+    <content>
+      用户刚完成了gupiao股票数据源项目的代码清理工作：
+      1. 移除了gupiao/datasource/stock/中的冗余代码文件（kline.py, financial.py, security.py, macro.py, sector.py, example.py）
+      2. 这些文件使用了不兼容的BaseDataAPI接口，与统一的StockDataSource抽象基类冲突
+      3. 保留了核心的base.py（包含StockDataSource抽象基类和StockDataResult结果类）和__init__.py
+      4. 更新了README.md文档，提供了完整的使用说明、架构设计和示例代码
+      5. 最终目录结构简洁统一，只包含核心抽象接口定义
+      6. 用户使用/memory命令，可能想要记录或回顾这次工作的内容
+    </content>
+    <tags>#工具使用</tags>
+  </item>
+</memory>
