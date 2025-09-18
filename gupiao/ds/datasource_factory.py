@@ -1,6 +1,6 @@
 import pandas as pd
 
-from ds.ak.AkShareDataSource import AkShareDataSource
+from gupiao.ds.ak.AkShareDataSource import AkShareDataSource
 # from ds.baostock.BaostockDataSource import BaostockDataSource
 
 

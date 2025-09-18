@@ -3,7 +3,7 @@ from unittest.mock import patch, MagicMock
 import pandas as pd
 import time
 
-from ds.baostock.BaostockDataSource import BaoStockDataSource
+from gupiao.ds.baostock.BaostockDataSource import BaoStockDataSource
 
 
 class TestBaoStockDataSource(unittest.TestCase):

@@ -4,7 +4,9 @@ from functools import wraps
 import baostock as bs
 import pandas as pd
 
-from ds.DataSourceInterface import DataSourceInterface
+from gupiao.ds.data_source_interface import DataSourceInterface
+
+
 # ========== 装饰器 ==========
 # ----------------- 装饰器（模块级） -----------------
 def fail_safe(method):
@@ -12,6 +14,7 @@ def fail_safe(method):
     装饰器：给实例方法添加失败计数与熔断（cooldown）功能。
     注意：method 是未绑定的函数；wrapper 在运行时以 self 作为第一个参数。
     """
+
     @wraps(method)
     def wrapper(self, *args, **kwargs):
         method_name = method.__name__
@@ -26,7 +29,8 @@ def fail_safe(method):
         cooldown_until = self._cooldown_until.get(method_name, 0)
         now = time.time()
         if now < cooldown_until:
-            raise RuntimeError(f"[COOLDOWN] {self.__class__.__name__}.{method_name} 在冷却中，直到 {time.ctime(cooldown_until)}")
+            raise RuntimeError(
+                f"[COOLDOWN] {self.__class__.__name__}.{method_name} 在冷却中，直到 {time.ctime(cooldown_until)}")
 
         try:
             # 执行真实方法
@@ -50,7 +54,8 @@ def fail_safe(method):
             if cnt >= fail_threshold:
                 self._cooldown_until[method_name] = time.time() + cooldown
                 # 打印/记录信息
-                print(f"[COOLDOWN] {self.__class__.__name__}.{method_name} 连续失败 {cnt} 次，触发冷却 {cooldown}s。最后异常: {e!r}")
+                print(
+                    f"[COOLDOWN] {self.__class__.__name__}.{method_name} 连续失败 {cnt} 次，触发冷却 {cooldown}s。最后异常: {e!r}")
 
             # 继续抛出异常，外部工厂可以捕获并切换数据源
             raise
@@ -63,6 +68,7 @@ class BaoStockDataSource(DataSourceInterface):
     """Baostock 数据源实现"""
     FAIL_THRESHOLD = 3  # 连续失败阈值（可按实例/类覆盖）
     COOLDOWN = 60  # 熔断冷却时间（秒）
+
     def __init__(self):
         """
         初始化BaoStock数据源，登录到BaoStock服务

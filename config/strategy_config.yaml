@@ -1,0 +1,109 @@
+# 选股策略配置文件
+
+# 数据源配置
+data_source:
+  type: "baostock"  # 支持: baostock, akshare
+  cache_dir: "cache"
+  cache_days: 1  # 缓存有效期(天)，0表示永不过期
+
+# 基本筛选条件
+basic_filters:
+  max_price: 100          # 最大股价
+  min_market_cap: 50      # 最小市值(亿)
+  max_market_cap: 500     # 最大市值(亿)
+
+# 主策略配置（严格条件）
+main_strategy:
+  # 趋势条件
+  min_consecutive_up_days: 3    # 最少连续上涨天数
+  max_3d_return: 0.05          # 3日累计涨幅上限
+
+  # 均线条件
+  enable_ma_filter: true       # 是否启用均线过滤
+  ma_periods: [5, 10, 20]     # 移动平均线周期
+
+  # 换手率条件
+  turnover_rules:
+    # 分市值层级的换手率要求
+    large_cap:  # >500亿
+      min_turnover: 1.0
+      max_turnover: 3.0
+      max_3d_cumulative: 8.0
+    mid_cap:    # 100-500亿
+      min_turnover: 2.0
+      max_turnover: 8.0
+      max_3d_cumulative: 15.0
+    small_cap:  # <100亿
+      min_turnover: 5.0
+      max_turnover: 15.0
+      max_3d_cumulative: 30.0
+
+# 分级回退策略
+fallback_strategies:
+  level_1:  # 轻微放宽
+    min_consecutive_up_days: 2
+    max_3d_return: 0.08
+    enable_ma_filter: true    # 仍保持均线条件
+    turnover_multiplier: 1.2  # 换手率阈值放宽20%
+
+  level_2:  # 再次放宽
+    min_consecutive_up_days: 1
+    max_3d_return: 0.12
+    enable_ma_filter: false   # 取消均线条件
+    turnover_multiplier: 1.5  # 换手率阈值放宽50%
+
+  emergency:  # 兜底策略
+    only_basic_filters: true  # 只应用基本过滤条件
+
+# 板块/大盘过滤（可选）
+market_filters:
+  enable: false
+  hs300_trend_days: 10      # 沪深300近N日趋势
+  sector_trend_days: 10     # 板块近N日趋势
+  min_sector_return: 0.0    # 板块最小收益率
+
+# 评分引擎配置
+scoring:
+  enable: true
+  factors:
+    financial:
+      weight: 0.3
+      metrics: ["roe", "revenue_growth", "debt_ratio"]
+
+    fund_flow:
+      weight: 0.25
+      metrics: ["net_inflow_3d", "volume_ratio"]
+
+    stability:
+      weight: 0.25
+      metrics: ["volatility", "max_single_day_change"]
+
+    price_position:
+      weight: 0.2
+      lookback_days: 252  # 价格位置计算回看期
+
+# 输出配置
+output:
+  max_candidates: 20       # 最大候选股票数量
+  min_candidates: 5        # 最小候选股票数量
+  sort_by: "total_score"   # 排序字段
+  export_format: ["csv", "excel"]  # 导出格式
+
+# 性能优化配置
+performance:
+  enable_parallel: true    # 启用并行处理
+  max_workers: 4          # 最大并行worker数
+  chunk_size: 100         # 数据处理块大小
+
+  # Parquet优化
+  parquet_settings:
+    compression: "snappy"
+    row_group_size: 50000
+    enable_statistics: true
+
+# 日志配置
+logging:
+  level: "INFO"
+  file: "logs/strategy.log"
+  max_size_mb: 100
+  backup_count: 5

@@ -1,7 +1,7 @@
 import akshare as ak
 import pandas as pd
 
-from ds.StockDataSource import StockDataSource
+from gupiao.ds.StockDataSource import StockDataSource
 
 
 class AkShareDataSource(StockDataSource):
