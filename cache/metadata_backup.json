@@ -1,0 +1,2502 @@
+{
+  "307908082f8dd6f0": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:29.470988",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "71ef5d64a1e47578": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:34.877561",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "3dcef61cad95150d": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:35.148357",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "cd9f68f75c7943c2": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:35.517574",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "07da472e81c8c672": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:35.888759",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "37fdc42c8741a7e6": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:36.823993",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "a51ec1bfee445fac": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:37.488026",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "901bd7c39b708397": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:38.037846",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "10ae767115de4cdd": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:38.461683",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "023dc9208faacd52": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:38.631338",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "bcc5d3fe4c17b375": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:39.129859",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "70945dcab44e923f": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:39.796514",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "c47334c9cd5d312b": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:40.073269",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "ffa767641a55c224": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:40.259467",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "7ffa0728550450fc": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:40.908453",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "fd6db467c78430ff": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:41.059322",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "5a84a8b10d4e3abe": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:41.213416",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "925c24c3ded3957f": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:41.705335",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "1227d9ce576dcc50": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:41.901225",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "fb55de3f7bce4bf5": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:42.579021",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "54b7c5c6f1088f79": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:42.746932",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "691838af46d7db42": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:42.908600",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "e0edcb5ea28a68d9": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:43.309918",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "dd9c3aebb6552dd9": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:43.460297",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "9a972694d6c49220": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:43.969637",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "f3c5f5ed383c087e": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:44.982818",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "7001aaa781eac11a": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:45.438024",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "d9821d860921dea3": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:46.559714",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "9f7a3a6e14356009": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:46.980104",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "270ca40e24680219": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:47.422253",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "b38feb0fa1f57dd4": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:47.936088",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "b0e96a43898f4baa": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:48.206548",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "2227116db4a51a07": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:48.966433",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "bde864f8d0a6e960": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:49.649886",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "d887bd67eab6f439": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:50.233462",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "deac8c3544121f7f": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:50.460221",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "6b91424b15539b81": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:50.633323",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "20592d45ed1fba44": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:50.791779",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "442ce65b01cbe503": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:51.249797",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "0d40830e20b74bae": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:52.040889",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "e941fa1e20df19b4": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:52.242833",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "b504436b4bb0d8c7": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:52.405027",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "9705acaec1f5f37f": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:52.578784",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "02ecc8d65421b91b": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:52.778481",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "f6d1ea4d5e353e2c": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:53.009871",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "869825d5f0d1ce55": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:53.163027",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "56990eaf60b1e461": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:53.313725",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "ff18dfda08f19015": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:53.455129",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "1712a7b8e1061f49": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:53.606488",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "2251ca0a51d8b8b2": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:53.898291",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "0170c159d9549678": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:54.135928",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "3671430af27853a9": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:54.322410",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "c575009d850ac238": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:54.484096",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "8f839c8c5decc1cb": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:56.123919",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "260c4b5ae3e2d8f9": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:56.841724",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "be7f4ce99836419e": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:57.062956",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "a3ca1493cbe31baa": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:57.435594",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "817d16010cc5874c": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:58.135912",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "4a2c22e6f74c7db4": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:58.573865",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "a3d292549b540af2": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:58.779413",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "21d0f29ad9db4b70": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:58.980397",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "5d4f7fb84adb5d76": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:59.308186",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "7aa02a5344cc9058": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:42:59.611505",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "a7b13e9df84a5bf7": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:43:00.324093",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "0d4240434fb9cbac": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:43:00.994479",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "442dc8a08cdd3ae8": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:43:01.723767",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "fb38e032ba132de4": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:43:02.671410",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "d4afee926e8418f7": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:43:03.007977",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "17ced6e5cf0da514": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:43:03.544258",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "f4a105db732bdba2": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:43:05.337187",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "bd5f0f173bced137": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:43:06.812390",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "9464303b296f6ebe": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:43:07.437523",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "43fa0853d21ced5b": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:43:07.826757",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "ae6c99bb790e6d05": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:43:10.451130",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "4211503c2cf6993b": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:43:10.687173",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "b1e24a35bc33915d": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:43:11.297181",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "f622d167823cfc01": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:43:11.795551",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "46dc9bc6ba60af25": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:43:11.988982",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "f676a40f08117074": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:43:12.638948",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "8eeddaf3cd1bf4c7": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:43:15.344617",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "d4db08fba3bd0684": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:43:15.972027",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "1309497e08ba63f8": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:43:16.130709",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "7ecdf1d2b9fb23e1": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:43:16.536731",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "90d258d120056836": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:43:17.355143",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "642e19a2224cd405": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:43:17.613126",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "d89f04ec58d7bf4f": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:43:17.807935",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "98790b1edbb03733": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:43:17.950070",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "316a521caaa984c1": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:43:18.731056",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "8eafb89589f9c08c": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:43:18.928521",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "c5c6c245cdbf3ade": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:43:19.100009",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "a09b5ae6bbff7536": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:43:19.691378",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "f6bf8e71c23f882d": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:43:19.865958",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "9c5f3ee7ec23f75b": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:43:20.464294",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "920bb2c11fac1ed7": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:43:20.799261",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "8b4a95b25597353c": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:43:21.216173",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "e5f1a4e73fd82260": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:43:21.902578",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "ac6ffe1d024148a7": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:43:22.279510",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "ac8776010b63137e": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:43:22.456798",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "03413dd6cb5c87a3": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:43:22.611744",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  },
+  "ecc8667637b95bf7": {
+    "cached_ranges": [
+      {
+        "start": "2024-11-30",
+        "end": "2025-09-26"
+      }
+    ],
+    "last_updated": "2025-09-28T10:43:23.235295",
+    "fields": [
+      "date",
+      "code",
+      "open",
+      "high",
+      "low",
+      "close",
+      "preclose",
+      "volume",
+      "amount",
+      "turn",
+      "tradestatus",
+      "pctChg",
+      "isST"
+    ],
+    "total_records": 215
+  }
+}

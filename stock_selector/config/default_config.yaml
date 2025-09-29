@@ -1,0 +1,124 @@
+# 股票选择策略系统默认配置文件
+# 版本: 1.0
+# 创建时间: 2024
+
+# 数据源配置
+data_source:
+  provider: "baostock"                # 数据源提供商
+  cache_enabled: true                 # 是否启用缓存
+  cache_path: "./data/cache/"         # 缓存路径
+
+# 基础筛选参数
+basic_filter:
+  max_price: 100.0                    # 最大股价(元)
+  min_market_value: 5000000000        # 最小市值(50亿)
+  max_market_value: 50000000000       # 最大市值(500亿)
+  min_volume: 1000                    # 最小成交量
+
+# 主策略参数
+main_strategy:
+  consecutive_days: 3                 # 连续上涨天数要求
+  max_cumulative_return: 0.05         # 最大3日累计涨幅(5%)
+  turnover_strategy: "tiered"         # 换手率策略(tiered/relative/activity)
+  enable_market_filter: false        # 是否启用大盘/板块过滤
+
+  # 单日涨幅阈值(按市值分层)
+  small_cap_daily_return_threshold: 0.015   # 小盘股1.5%
+  mid_cap_daily_return_threshold: 0.01      # 中盘股1.0%
+  large_cap_daily_return_threshold: 0.005   # 大盘股0.5%
+
+  # 累计涨幅限制(按市值分层)
+  cumulative_return_limits:
+    small_cap: 0.08     # 小盘股8%
+    mid_cap: 0.05       # 中盘股5%
+    large_cap: 0.03     # 大盘股3%
+
+# 回退策略1参数(轻微放宽)
+fallback_strategy1:
+  consecutive_days: 2                 # 连续上涨天数降为2
+  return_limit_boost: 0.2             # 涨幅上限放宽20%
+
+# 回退策略2参数(进一步放宽)
+fallback_strategy2:
+  enable_simple_trend: true           # 启用简化趋势条件
+
+# 兜底策略参数(保证非空)
+emergency_strategy:
+  max_candidates: 50                  # 最多返回50只股票
+  emergency_max_price: 200.0          # 紧急情况下最大股价
+  emergency_min_volume: 100           # 紧急情况下最小成交量
+  emergency_min_market_value: 1000000000   # 紧急情况下最小市值(10亿)
+  emergency_max_market_value: 100000000000 # 紧急情况下最大市值(1000亿)
+
+# 评分引擎配置
+score_engine:
+  normalization_method: "min_max"     # 标准化方法(min_max/z_score/rank)
+
+  # 各因子配置
+  factors:
+    # 财务因子
+    financial:
+      weight: 0.30                    # 权重30%
+      enabled: true                   # 是否启用
+      normalization_method: "min_max"
+
+    # 资金面因子
+    fund_flow:
+      weight: 0.25                    # 权重25%
+      enabled: true
+      normalization_method: "min_max"
+
+    # 稳定性因子
+    stability:
+      weight: 0.25                    # 权重25%
+      enabled: true
+      extreme_threshold: 0.05         # 极端波动阈值5%
+      normalization_method: "min_max"
+
+    # 价格位置因子
+    price_position:
+      weight: 0.20                    # 权重20%
+      enabled: true
+      lookback_period: 252            # 回望期252个交易日
+      position_preference: "low"      # 位置偏好(low/mid/high)
+      normalization_method: "min_max"
+
+# 输出配置
+output:
+  max_candidates: 20                  # 最大候选股票数
+  formats: ["csv", "json"]            # 输出格式
+  output_path: "./results/"           # 输出路径
+  include_visualization: false       # 是否包含可视化
+  filename_template: "stock_candidates_{date}.{ext}"  # 文件名模板
+  use_chinese_headers: true          # 使用中文表头
+  include_detailed_analysis: false   # 是否包含详细分析
+
+# 日志配置
+logging:
+  level: "INFO"                       # 日志级别
+  file_path: "./logs/stock_selector.log"  # 日志文件路径
+  max_file_size: "10MB"               # 最大文件大小
+  backup_count: 5                     # 备份文件数量
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"  # 日志格式
+  console_output: true                # 是否输出到控制台
+
+# 系统配置
+system:
+  max_workers: 4                      # 最大工作线程数
+  timeout: 300                        # 超时时间(秒)
+  retry_count: 3                      # 重试次数
+
+# 配置说明
+_description:
+  version: "1.0"
+  sections:
+    data_source: "数据源配置 - 配置baostock数据源和缓存设置"
+    basic_filter: "基础筛选参数 - 价格、市值、成交量等基本过滤条件"
+    main_strategy: "主策略参数 - 最严格的选股条件，包含趋势、均线、换手率等"
+    fallback_strategy1: "回退策略1 - 主策略无候选时的轻微放宽条件"
+    fallback_strategy2: "回退策略2 - 进一步放宽的筛选条件"
+    emergency_strategy: "兜底策略 - 保证非空的最宽松条件"
+    score_engine: "评分引擎 - 财务、资金面、稳定性、价格位置四大因子配置"
+    output: "输出配置 - 结果文件格式和路径设置"
+    logging: "日志配置 - 日志级别、文件和格式设置"
+    system: "系统配置 - 性能和运行参数设置"

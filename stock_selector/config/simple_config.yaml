@@ -1,0 +1,48 @@
+# 股票选择策略系统简化配置文件
+# 适用于快速测试和基础使用
+
+# 基础筛选参数
+basic_filter:
+  max_price: 50.0                     # 股价不超过50元
+  min_market_value: 10000000000       # 最小市值100亿
+  max_market_value: 20000000000       # 最大市值200亿
+
+# 主策略参数(相对宽松)
+main_strategy:
+  consecutive_days: 2                 # 连续上涨2天即可
+  max_cumulative_return: 0.08         # 3日累计涨幅不超过8%
+  turnover_strategy: "relative"       # 使用相对换手率策略
+
+# 评分引擎配置(简化)
+score_engine:
+  factors:
+    # 只启用部分因子以提高运行速度
+    financial:
+      weight: 0.40                    # 提高财务因子权重
+      enabled: true
+
+    fund_flow:
+      weight: 0.35                    # 提高资金面因子权重
+      enabled: true
+
+    stability:
+      weight: 0.25                    # 稳定性因子
+      enabled: true
+      extreme_threshold: 0.08         # 放宽极端波动阈值到8%
+
+    price_position:
+      weight: 0.00                    # 暂时禁用价格位置因子
+      enabled: false
+
+# 输出配置
+output:
+  max_candidates: 10                  # 只输出前10只股票
+  formats: ["csv"]                    # 只输出CSV格式
+  output_path: "./results/"
+  use_chinese_headers: true
+
+# 日志配置(简化)
+logging:
+  level: "WARNING"                    # 只记录警告和错误
+  console_output: true
+  file_path: "./logs/simple.log"

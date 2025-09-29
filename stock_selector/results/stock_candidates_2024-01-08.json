@@ -1,0 +1,659 @@
+{
+  "meta": {
+    "target_date": "2024-01-08",
+    "generated_at": "2025-09-28T00:16:15.723087",
+    "strategy_used": "回退策略1",
+    "candidate_count": 9
+  },
+  "candidates": [
+    {
+      "date": "2024-01-08 00:00:00",
+      "code": "sh.603323",
+      "open": 4.26,
+      "high": 4.29,
+      "low": 4.22,
+      "close": 4.26,
+      "preclose": 4.25,
+      "volume": 29020882.0,
+      "amount": 123495351.75,
+      "turn": 1.8799,
+      "tradestatus": "1",
+      "pctChg": 0.2353,
+      "isST": "0",
+      "ma5": 4.226,
+      "ma10": 4.167,
+      "ma20": 4.161,
+      "ma5_gt_ma10": true,
+      "ma10_gt_ma20": true,
+      "ma_bullish": true,
+      "close_gt_ma5": true,
+      "daily_return": 0.002352941176470538,
+      "is_up": true,
+      "consecutive_up_days": 2,
+      "return_3d": 0.011876484560569889,
+      "return_5d": 0.02403846153846123,
+      "turnover": 0.018799,
+      "avg_turnover_60d": 0.010484483333333332,
+      "cumulative_turnover_3d": 0.047362,
+      "relative_turnover": 1.7930306532351779,
+      "estimated_market_value": 6569251117.080696,
+      "activity_score": 0.4249639090755049,
+      "daily_amplitude": 0.016470588235294185,
+      "close_std_3d": 0.026457513110605946,
+      "extreme_volatility": false,
+      "highest_price": 5.01,
+      "lowest_price": 4.06,
+      "price_position": 0.21052631578947384,
+      "market_value_billion": 65.69251117080697,
+      "strategy_level": 1,
+      "strategy_name": "回退策略1",
+      "financial_score": 0.15,
+      "fund_flow_score": 0.08899908341608373,
+      "stability_score": 0.25,
+      "price_position_score": 0.2,
+      "total_score": 0.6889990834160837
+    },
+    {
+      "date": "2024-01-08 00:00:00",
+      "code": "sh.600160",
+      "open": 16.98,
+      "high": 17.02,
+      "low": 16.62,
+      "close": 16.75,
+      "preclose": 16.7,
+      "volume": 30654406.0,
+      "amount": 516362258.2,
+      "turn": 1.1355,
+      "tradestatus": "1",
+      "pctChg": 0.2994,
+      "isST": "0",
+      "ma5": 16.458000000000002,
+      "ma10": 16.363,
+      "ma20": 16.4845,
+      "ma5_gt_ma10": true,
+      "ma10_gt_ma20": false,
+      "ma_bullish": false,
+      "close_gt_ma5": true,
+      "daily_return": 0.002994011976047947,
+      "is_up": true,
+      "consecutive_up_days": 4,
+      "return_3d": 0.03076923076923066,
+      "return_5d": 0.015767131594905948,
+      "turnover": 0.011354999999999999,
+      "avg_turnover_60d": 0.00485465,
+      "cumulative_turnover_3d": 0.03211700000000001,
+      "relative_turnover": 2.3389945722142684,
+      "estimated_market_value": 45474439295.464554,
+      "activity_score": 0.2786564263066758,
+      "daily_amplitude": 0.023952095808383148,
+      "close_std_3d": 0.19502136635061765,
+      "extreme_volatility": false,
+      "highest_price": 18.7,
+      "lowest_price": 13.1,
+      "price_position": 0.6517857142857144,
+      "market_value_billion": 454.74439295464555,
+      "strategy_level": 1,
+      "strategy_name": "回退策略1",
+      "financial_score": 0.15,
+      "fund_flow_score": 0.23082402295683463,
+      "stability_score": 0.23036666519540955,
+      "price_position_score": 0.06253871833197674,
+      "total_score": 0.673729406484221
+    },
+    {
+      "date": "2024-01-08 00:00:00",
+      "code": "sh.601088",
+      "open": 33.3,
+      "high": 33.81,
+      "low": 33.05,
+      "close": 33.65,
+      "preclose": 33.45,
+      "volume": 45969032.0,
+      "amount": 1541399296.99,
+      "turn": 0.2788,
+      "tradestatus": "1",
+      "pctChg": 0.5979,
+      "isST": "0",
+      "ma5": 33.178,
+      "ma10": 32.318,
+      "ma20": 31.605999999999995,
+      "ma5_gt_ma10": true,
+      "ma10_gt_ma20": true,
+      "ma_bullish": true,
+      "close_gt_ma5": true,
+      "daily_return": 0.0059790732436471065,
+      "is_up": true,
+      "consecutive_up_days": 6,
+      "return_3d": 0.02031534263189827,
+      "return_5d": 0.07336523125996819,
+      "turnover": 0.2788,
+      "avg_turnover_60d": 0.131245,
+      "cumulative_turnover_3d": 0.7076,
+      "relative_turnover": 2.124271400815269,
+      "estimated_market_value": 5528691883.034433,
+      "activity_score": 6.254380920598784,
+      "daily_amplitude": 0.022720478325859644,
+      "close_std_3d": 0.12165525060664271,
+      "extreme_volatility": false,
+      "highest_price": 33.65,
+      "lowest_price": 27.01,
+      "price_position": 1.0,
+      "market_value_billion": 55.286918830344334,
+      "strategy_level": 1,
+      "strategy_name": "回退策略1",
+      "financial_score": 0.15,
+      "fund_flow_score": 0.25,
+      "stability_score": 0.2421090580517931,
+      "price_position_score": 0.0,
+      "total_score": 0.6421090580517932
+    },
+    {
+      "date": "2024-01-08 00:00:00",
+      "code": "sh.601298",
+      "open": 6.46,
+      "high": 6.6,
+      "low": 6.43,
+      "close": 6.53,
+      "preclose": 6.48,
+      "volume": 18137000.0,
+      "amount": 118420095.0,
+      "turn": 0.3364,
+      "tradestatus": "1",
+      "pctChg": 0.7716,
+      "isST": "0",
+      "ma5": 6.444,
+      "ma10": 6.356,
+      "ma20": 6.355,
+      "ma5_gt_ma10": true,
+      "ma10_gt_ma20": true,
+      "ma_bullish": true,
+      "close_gt_ma5": true,
+      "daily_return": 0.007716049382716021,
+      "is_up": true,
+      "consecutive_up_days": 6,
+      "return_3d": 0.013975155279502882,
+      "return_5d": 0.05663430420711979,
+      "turnover": 0.003364,
+      "avg_turnover_60d": 0.0017729333333333333,
+      "cumulative_turnover_3d": 0.007318999999999998,
+      "relative_turnover": 1.8974204707828832,
+      "estimated_market_value": 35202168549.346016,
+      "activity_score": 0.08169263253530239,
+      "daily_amplitude": 0.026234567901234556,
+      "close_std_3d": 0.03214550253646018,
+      "extreme_volatility": false,
+      "highest_price": 8.47,
+      "lowest_price": 5.87,
+      "price_position": 0.25384615384615383,
+      "market_value_billion": 352.02168549346015,
+      "strategy_level": 1,
+      "strategy_name": "回退策略1",
+      "financial_score": 0.15,
+      "fund_flow_score": 0.060695409151932986,
+      "stability_score": 0.2319161899166203,
+      "price_position_score": 0.1682865448250976,
+      "total_score": 0.6108981438936509
+    },
+    {
+      "date": "2024-01-08 00:00:00",
+      "code": "sh.601825",
+      "open": 5.96,
+      "high": 6.01,
+      "low": 5.93,
+      "close": 5.99,
+      "preclose": 5.97,
+      "volume": 29487427.0,
+      "amount": 176398447.28,
+      "turn": 0.638,
+      "tradestatus": "1",
+      "pctChg": 0.335,
+      "isST": "0",
+      "ma5": 5.886,
+      "ma10": 5.797,
+      "ma20": 5.7315,
+      "ma5_gt_ma10": true,
+      "ma10_gt_ma20": true,
+      "ma_bullish": true,
+      "close_gt_ma5": true,
+      "daily_return": 0.00335008375209388,
+      "is_up": true,
+      "consecutive_up_days": 6,
+      "return_3d": 0.027444253859348233,
+      "return_5d": 0.04355400696864131,
+      "turnover": 0.00638,
+      "avg_turnover_60d": 0.0029811,
+      "cumulative_turnover_3d": 0.020523,
+      "relative_turnover": 2.140149609204656,
+      "estimated_market_value": 27648659448.27586,
+      "activity_score": 0.15339333885586187,
+      "daily_amplitude": 0.013400335008375222,
+      "close_std_3d": 0.06429100507322721,
+      "extreme_volatility": false,
+      "highest_price": 6.3,
+      "lowest_price": 5.42,
+      "price_position": 0.6477272727272732,
+      "market_value_billion": 276.4865944827586,
+      "strategy_level": 1,
+      "strategy_name": "回退策略1",
+      "financial_score": 0.15,
+      "fund_flow_score": 0.13294859534118333,
+      "stability_score": 0.24635494655314485,
+      "price_position_score": 0.07446134478713179,
+      "total_score": 0.60376488668146
+    },
+    {
+      "date": "2024-01-08 00:00:00",
+      "code": "sh.688778",
+      "open": 38.9,
+      "high": 39.8,
+      "low": 38.59,
+      "close": 39.72,
+      "preclose": 38.9,
+      "volume": 1757933.0,
+      "amount": 69300915.88,
+      "turn": 1.2964,
+      "tradestatus": "1",
+      "pctChg": 2.108,
+      "isST": "0",
+      "ma5": 39.266,
+      "ma10": 39.157,
+      "ma20": 38.5415,
+      "ma5_gt_ma10": true,
+      "ma10_gt_ma20": true,
+      "ma_bullish": true,
+      "close_gt_ma5": true,
+      "daily_return": 0.02107969151670952,
+      "is_up": true,
+      "consecutive_up_days": 2,
+      "return_3d": 0.007610350076103334,
+      "return_5d": 0.0020181634712410634,
+      "turnover": 0.012964,
+      "avg_turnover_60d": 0.007536200000000001,
+      "cumulative_turnover_3d": 0.02579200000000001,
+      "relative_turnover": 1.7202303548207318,
+      "estimated_market_value": 5345643002.159827,
+      "activity_score": 0.2903877360449225,
+      "daily_amplitude": 0.031105398457583387,
+      "close_std_3d": 0.4823207784604498,
+      "extreme_volatility": false,
+      "highest_price": 73.2,
+      "lowest_price": 37.05,
+      "price_position": 0.07385892116182576,
+      "market_value_billion": 53.45643002159827,
+      "strategy_level": 1,
+      "strategy_name": "回退策略1",
+      "financial_score": 0.15,
+      "fund_flow_score": 0.0,
+      "stability_score": 0.24856876002653838,
+      "price_position_score": 0.16788994293057188,
+      "total_score": 0.5664587029571103
+    },
+    {
+      "date": "2024-01-08 00:00:00",
+      "code": "sh.600601",
+      "open": 2.95,
+      "high": 3.08,
+      "low": 2.88,
+      "close": 2.99,
+      "preclose": 2.88,
+      "volume": 83850930.0,
+      "amount": 250075038.89,
+      "turn": 2.0107,
+      "tradestatus": "1",
+      "pctChg": 3.8194,
+      "isST": "0",
+      "ma5": 2.896,
+      "ma10": 2.854,
+      "ma20": 2.9029999999999996,
+      "ma5_gt_ma10": true,
+      "ma10_gt_ma20": false,
+      "ma_bullish": false,
+      "close_gt_ma5": true,
+      "daily_return": 0.03819444444444456,
+      "is_up": true,
+      "consecutive_up_days": 2,
+      "return_3d": 0.04181184668989557,
+      "return_5d": 0.03460207612456756,
+      "turnover": 0.020107,
+      "avg_turnover_60d": 0.010790216666666666,
+      "cumulative_turnover_3d": 0.037521,
+      "relative_turnover": 1.8634472894427514,
+      "estimated_market_value": 12437212855.721888,
+      "activity_score": 0.46736628064093366,
+      "daily_amplitude": 0.0694444444444445,
+      "close_std_3d": 0.07371114795833725,
+      "extreme_volatility": false,
+      "highest_price": 3.83,
+      "lowest_price": 2.44,
+      "price_position": 0.3956834532374102,
+      "market_value_billion": 124.37212855721887,
+      "strategy_level": 1,
+      "strategy_name": "回退策略1",
+      "financial_score": 0.15,
+      "fund_flow_score": 0.2294180940417523,
+      "stability_score": 0.0,
+      "price_position_score": 0.10430106394024419,
+      "total_score": 0.4837191579819965
+    },
+    {
+      "date": "2024-01-08 00:00:00",
+      "code": "sh.603583",
+      "open": 19.76,
+      "high": 21.0,
+      "low": 19.76,
+      "close": 20.44,
+      "preclose": 19.83,
+      "volume": 14232250.0,
+      "amount": 292424729.86,
+      "turn": 3.7233,
+      "tradestatus": "1",
+      "pctChg": 3.0761,
+      "isST": "0",
+      "ma5": 19.988,
+      "ma10": 19.718,
+      "ma20": 19.637,
+      "ma5_gt_ma10": true,
+      "ma10_gt_ma20": true,
+      "ma_bullish": true,
+      "close_gt_ma5": true,
+      "daily_return": 0.030761472516389464,
+      "is_up": true,
+      "consecutive_up_days": 2,
+      "return_3d": 0.02713567839195985,
+      "return_5d": 0.020469296055916075,
+      "turnover": 0.037233,
+      "avg_turnover_60d": 0.01982016666666667,
+      "cumulative_turnover_3d": 0.053701000000000026,
+      "relative_turnover": 1.878541216437803,
+      "estimated_market_value": 7853912654.36575,
+      "activity_score": 0.8483270105569158,
+      "daily_amplitude": 0.06253151790216836,
+      "close_std_3d": 0.3740320841853611,
+      "extreme_volatility": false,
+      "highest_price": 25.5,
+      "lowest_price": 16.9,
+      "price_position": 0.41162790697674445,
+      "market_value_billion": 78.5391265436575,
+      "strategy_level": 1,
+      "strategy_name": "回退策略1",
+      "financial_score": 0.15,
+      "fund_flow_score": 0.08283620355868675,
+      "stability_score": 0.058198143398287376,
+      "price_position_score": 0.10217542849550997,
+      "total_score": 0.3932097754524841
+    },
+    {
+      "date": "2024-01-08 00:00:00",
+      "code": "sz.003013",
+      "open": 17.39,
+      "high": 17.74,
+      "low": 16.95,
+      "close": 17.46,
+      "preclose": 17.35,
+      "volume": 5184695.0,
+      "amount": 90026097.05,
+      "turn": 1.2961,
+      "tradestatus": "1",
+      "pctChg": 0.634,
+      "isST": "0",
+      "ma5": 16.96,
+      "ma10": 16.811,
+      "ma20": 16.938,
+      "ma5_gt_ma10": true,
+      "ma10_gt_ma20": false,
+      "ma_bullish": false,
+      "close_gt_ma5": true,
+      "daily_return": 0.0063400576368875744,
+      "is_up": true,
+      "consecutive_up_days": 5,
+      "return_3d": 0.049278846153846256,
+      "return_5d": 0.06528370957901153,
+      "turnover": 0.012961,
+      "avg_turnover_60d": 0.0060794,
+      "cumulative_turnover_3d": 0.03560000000000005,
+      "relative_turnover": 2.1319538112313716,
+      "estimated_market_value": 6945922154.926317,
+      "activity_score": 0.2937146721895518,
+      "daily_amplitude": 0.045533141210374585,
+      "close_std_3d": 0.37643060449436466,
+      "extreme_volatility": false,
+      "highest_price": 19.8,
+      "lowest_price": 15.29,
+      "price_position": 0.4811529933481155,
+      "market_value_billion": 69.45922154926318,
+      "strategy_level": 1,
+      "strategy_name": "回退策略1",
+      "financial_score": 0.15,
+      "fund_flow_score": 0.029749643796251588,
+      "stability_score": 0.10655813165764545,
+      "price_position_score": 0.09712752893449395,
+      "total_score": 0.38343530438839096
+    }
+  ],
+  "strategy_summary": {
+    "total_input": 5268,
+    "final_candidates": 9,
+    "strategy_results": [
+      {
+        "level": 0,
+        "name": "主策略",
+        "candidates_count": 0,
+        "success": true,
+        "summary": {
+          "strategy_name": "主策略",
+          "candidate_count": 0,
+          "avg_consecutive_days": 0,
+          "avg_3d_return": 0,
+          "avg_turnover": 0
+        }
+      },
+      {
+        "level": 1,
+        "name": "回退策略1",
+        "candidates_count": 9,
+        "success": true
+      }
+    ]
+  },
+  "factor_info": [
+    {
+      "name": "财务因子",
+      "factor_id": "financial",
+      "weight": 0.3,
+      "description": "财务因子 - 权重: 30.00%\n基于ROE、营收增长、净利润增长、负债率、自由现金流等指标综合评分",
+      "required_columns": [],
+      "details": {
+        "name": "财务因子",
+        "weight": 0.3,
+        "components": {
+          "roe": {
+            "weight": 0.25,
+            "description": "净资产收益率，越高越好"
+          },
+          "revenue_growth": {
+            "weight": 0.25,
+            "description": "营收增长率，适度增长为佳"
+          },
+          "profit_growth": {
+            "weight": 0.25,
+            "description": "净利润增长率，适度增长为佳"
+          },
+          "debt_ratio": {
+            "weight": 0.15,
+            "description": "负债率，越低越好"
+          },
+          "free_cash_flow": {
+            "weight": 0.1,
+            "description": "自由现金流，正值为佳"
+          }
+        },
+        "score_range": [
+          0.0,
+          1.0
+        ],
+        "data_source": "financial_statements"
+      }
+    },
+    {
+      "name": "资金面因子",
+      "factor_id": "fund_flow",
+      "weight": 0.25,
+      "description": "资金面因子 - 权重: 25.00%\n基于量比、成交额活跃度、换手率活跃度、主力资金流入等指标综合评分",
+      "required_columns": [
+        "volume",
+        "amount"
+      ],
+      "details": {
+        "name": "资金面因子",
+        "weight": 0.25,
+        "components": {
+          "volume_ratio": {
+            "weight": 0.3,
+            "description": "量比，适度放量为佳"
+          },
+          "amount_activity": {
+            "weight": 0.25,
+            "description": "成交额活跃度"
+          },
+          "turnover_activity": {
+            "weight": 0.25,
+            "description": "换手率活跃度"
+          },
+          "fund_flow": {
+            "weight": 0.2,
+            "description": "主力资金净流入"
+          }
+        },
+        "score_range": [
+          0.0,
+          1.0
+        ],
+        "optimal_range": {
+          "volume_ratio": [
+            1.5,
+            3.0
+          ],
+          "relative_turnover": [
+            1.2,
+            2.5
+          ],
+          "fund_flow_ratio": [
+            0.0,
+            0.5
+          ]
+        }
+      }
+    },
+    {
+      "name": "稳定性因子",
+      "factor_id": "stability",
+      "weight": 0.25,
+      "description": "稳定性因子 - 权重: 25.00%\n基于日振幅、价格波动、极端波动惩罚等指标，偏好稳定上涨的股票\n极端波动阈值: 5.0%",
+      "required_columns": [
+        "high",
+        "low",
+        "close"
+      ],
+      "details": {
+        "name": "稳定性因子",
+        "weight": 0.25,
+        "components": {
+          "amplitude": {
+            "weight": 0.35,
+            "description": "日振幅，越小越好"
+          },
+          "volatility": {
+            "weight": 0.3,
+            "description": "价格波动稳定性"
+          },
+          "extreme_penalty": {
+            "weight": 0.25,
+            "description": "极端波动惩罚"
+          },
+          "continuity": {
+            "weight": 0.1,
+            "description": "价格连续性"
+          }
+        },
+        "score_range": [
+          0.0,
+          1.0
+        ],
+        "preferences": {
+          "daily_amplitude": "< 3%",
+          "daily_volatility": "< 2%",
+          "extreme_moves": "< 5.0%",
+          "price_gaps": "minimal"
+        },
+        "extreme_threshold": 0.05
+      }
+    },
+    {
+      "name": "价格位置因子",
+      "factor_id": "price_position",
+      "weight": 0.2,
+      "description": "价格位置因子 - 权重: 20.00%\n基于价格在252日历史区间的位置，偏好low位股票\n结合均价位置和回调幅度综合评分",
+      "required_columns": [
+        "close"
+      ],
+      "details": {
+        "name": "价格位置因子",
+        "weight": 0.2,
+        "components": {
+          "historical_position": {
+            "weight": 0.5,
+            "description": "252日历史区间位置"
+          },
+          "relative_to_average": {
+            "weight": 0.3,
+            "description": "相对均价位置"
+          },
+          "pullback_analysis": {
+            "weight": 0.2,
+            "description": "回调幅度分析"
+          }
+        },
+        "score_range": [
+          0.0,
+          1.0
+        ],
+        "parameters": {
+          "lookback_period": 252,
+          "position_preference": "low"
+        },
+        "optimal_ranges": {
+          "low_preference": {
+            "position": [
+              0.0,
+              0.3
+            ],
+            "pullback": [
+              0.05,
+              0.15
+            ]
+          },
+          "mid_preference": {
+            "position": [
+              0.3,
+              0.7
+            ],
+            "pullback": [
+              0.0,
+              0.1
+            ]
+          },
+          "high_preference": {
+            "position": [
+              0.7,
+              1.0
+            ],
+            "pullback": [
+              0.0,
+              0.05
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
