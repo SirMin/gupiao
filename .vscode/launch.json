@@ -10,11 +10,13 @@
             "name": "Python Debugger: stock selector",
             "type": "debugpy",
             "request": "launch",
-            "program": "${workspaceFolder}/stock_selector/main.py",
+            "program": "${workspaceFolder}/src/gupiao/selector/main.py",
             "console": "integratedTerminal",
             "args": [
                 "--date",
-                "2025-09-26"
+                "2025-09-26",
+                "--config",
+                "${workspaceFolder}/src/gupiao/selector/config/default_config.yaml"
             ]
         }
     ]

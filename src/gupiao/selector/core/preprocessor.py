@@ -9,9 +9,7 @@ from datetime import datetime, timedelta
 import sys
 import os
 
-# 添加项目根目录到路径中以便导入数据源模块
-sys.path.append(os.path.join(os.path.dirname(__file__), '../../../gupiao'))
-from datasource.stock.base import StockDataSource
+from gupiao.datasource.stock.base import StockDataSource
 
 
 class StockDataPreprocessor:

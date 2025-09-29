@@ -4,9 +4,7 @@ import unittest
 import sys
 import os
 
-# 添加项目根目录到Python路径
-project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-sys.path.insert(0, project_root)
+# 项目现在使用Poetry标准结构，无需手动添加路径
 
 
 def run_all_tests():

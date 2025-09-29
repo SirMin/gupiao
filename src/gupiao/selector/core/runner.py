@@ -5,13 +5,11 @@ import pandas as pd
 from typing import Dict, Any, Optional
 import logging
 from datetime import datetime
-import sys
 import os
 
-# 添加路径
-sys.path.append(os.path.join(os.path.dirname(__file__), '../../../gupiao'))
-from datasource.baostock.datasource import BaostockDataSource
-from datasource.cache.cached_datasource import CachedDataSource
+# 导入数据源模块
+from gupiao.datasource.baostock.datasource import BaostockDataSource
+from gupiao.datasource.cache.cached_datasource import CachedDataSource
 
 # 导入核心模块
 from .preprocessor import StockDataPreprocessor
@@ -412,4 +410,6 @@ class StockSelectorRunner:
 
     def __exit__(self, exc_type, exc_val, exc_tb):
         """上下文管理器出口"""
+        # 参数用于异常处理，这里不需要使用
+        _ = exc_type, exc_val, exc_tb
         self.cleanup()

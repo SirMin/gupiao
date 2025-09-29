@@ -5,7 +5,7 @@ from dataclasses import dataclass
 from enum import Enum
 import random
 
-from datasource.stock.base import StockDataSource, StockDataResult
+from ..stock.base import StockDataSource, StockDataResult
 
 
 

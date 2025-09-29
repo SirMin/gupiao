@@ -8,8 +8,6 @@ from .base_factor import BaseFactor
 import sys
 import os
 
-# 添加数据源路径
-sys.path.append(os.path.join(os.path.dirname(__file__), '../../../gupiao'))
 
 
 class FinancialFactor(BaseFactor):

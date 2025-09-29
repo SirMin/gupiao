@@ -15,6 +15,27 @@ dependencies = [
     "pytest (>=8.4.2,<9.0.0)"
 ]
 
+[project.scripts]
+gupiao-selector = "gupiao.selector.main:main"
+
+[tool.poetry]
+name = "gupiao"
+version = "1.0.0"
+description = "选股程序"
+authors = ["sirmin <minzhiwei@live.cn>"]
+license = "Apache-2.0"
+readme = "README.md"
+packages = [{include = "gupiao", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+baostock = "^0.8.9"
+pandas = "^2.3.2"
+pyarrow = "^21.0.0"
+pytest = "^8.4.2"
+
+[tool.poetry.scripts]
+gupiao-selector = "gupiao.selector.main:main"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]

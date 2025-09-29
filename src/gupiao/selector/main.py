@@ -14,11 +14,22 @@ import os
 from datetime import datetime, timedelta
 from typing import List
 
-# 添加项目路径
-sys.path.append(os.path.dirname(__file__))
 
-from src.core.runner import StockSelectorRunner
-from src.utils.helpers import get_trading_dates, validate_date_format
+try:
+    # 当作为包模块运行时使用相对导入
+    from .core.runner import StockSelectorRunner
+    from .utils.helpers import get_trading_dates, validate_date_format
+except ImportError:
+    # 当直接运行时使用绝对导入
+    import sys
+    import os
+    # 添加项目根目录到 Python 路径
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    project_root = os.path.join(current_dir, '../../..')
+    sys.path.insert(0, project_root)
+
+    from gupiao.selector.core.runner import StockSelectorRunner
+    from gupiao.selector.utils.helpers import get_trading_dates, validate_date_format
 
 
 def parse_arguments():
@@ -72,7 +83,7 @@ def parse_arguments():
     parser.add_argument(
         '--config',
         type=str,
-        default='stock_selector/config/default_config.yaml',
+        default='selector/config/default_config.yaml',
         help='配置文件路径'
     )
 
@@ -199,7 +210,6 @@ def print_batch_summary(batch_result):
 
 
 def main():
-    print(os.curdir)
     """主函数"""
     # 解析参数
     args = parse_arguments()
@@ -245,7 +255,10 @@ def main():
 
                 # 生成汇总报告
                 if batch_result.get('success', False):
-                    from src.reporters.csv_reporter import CSVReporter
+                    try:
+                        from .reporters.csv_reporter import CSVReporter
+                    except ImportError:
+                        from gupiao.selector.reporters.csv_reporter import CSVReporter
                     output_config = runner.config.get('output', {})
                     if args.output:
                         output_config['output_path'] = args.output

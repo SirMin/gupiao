@@ -8,8 +8,6 @@ import logging
 import sys
 import os
 
-# 添加因子模块路径
-sys.path.append(os.path.dirname(__file__))
 from ..factors.financial_factor import FinancialFactor
 from ..factors.fund_flow_factor import FundFlowFactor
 from ..factors.stability_factor import StabilityFactor
