@@ -1,6 +1,6 @@
 选股策略说明书（Markdown 版）
 
-数据源：Baostock（行情、换手、市值等） + Akshare（财务、资金流等）
+数据源：Baostock
 回测框架：Backtrader（策略引擎）
 打分引擎：自定义 ScoreEngine（StockScore + 自定义因子）
 目标：每日/每周输出候选股票列表（按综合得分排序），严格优先主策略，找不到才逐级回退
@@ -14,9 +14,7 @@
 ⸻
 
 2. 数据与频率
-	•	日线行情：Baostock（open/high/low/close/volume/turnover/market_value）
-	•	财务数据：Akshare（ROE、营收增长、净利同比、负债率、自由现金流等）
-	•	资金流/主力数据：Akshare（近 N 日主力净流入 / net_mf_amount 或等效）
+	•	日线行情：Baostock
 	•	运行频率：每日收盘后 1 次（也可改为每周）
 
 ⸻
@@ -138,7 +136,7 @@
 
 9. 实现建议（工程化）
 	•	模块化：
-	•	data_loader（Baostock / Akshare）
+	•	data_loader Baostock 
 	•	preprocessor（合并、补全、计算指标）
 	•	strategy_engine（规则因子、回退逻辑）
 	•	score_engine（因子类 + 权重配置）

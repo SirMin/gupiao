@@ -23,7 +23,7 @@ class StockDataResult:
 
     def to_dataframe(self) -> pd.DataFrame:
         """将结果转换为DataFrame"""
-        if not self.success or not self.data:
+        if not self.success or (isinstance(self.data, list) and not self.data):
             return pd.DataFrame()
 
         if isinstance(self.data, list) and self.fields:

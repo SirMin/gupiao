@@ -5,9 +5,13 @@ from dataclasses import dataclass
 from enum import Enum
 import random
 
+from datasource.stock.base import StockDataSource, StockDataResult
+
+
 
 class LoadBalanceStrategy(Enum):
     """负载均衡策略"""
+
     ROUND_ROBIN = "round_robin"
     WEIGHTED_ROUND_ROBIN = "weighted_round_robin"
     PRIORITY_FIRST = "priority_first"
@@ -17,15 +21,17 @@ class LoadBalanceStrategy(Enum):
 
 class CircuitBreakerState(Enum):
     """熔断器状态"""
-    CLOSED = "closed"      # 正常状态
-    OPEN = "open"          # 熔断状态
+
+    CLOSED = "closed"  # 正常状态
+    OPEN = "open"  # 熔断状态
     HALF_OPEN = "half_open"  # 半开状态
 
 
 @dataclass
 class DataSourceInfo:
     """数据源信息"""
-    datasource: Any  # StockDataSource实例
+
+    datasource: StockDataSource  # StockDataSource实例
     priority: int = 0
     weight: int = 1
     total_requests: int = 0
@@ -55,7 +61,7 @@ class DataSourceInfo:
     @property
     def name(self) -> str:
         """数据源名称"""
-        return getattr(self.datasource, '__class__', type(self.datasource)).__name__
+        return getattr(self.datasource, "__class__", type(self.datasource)).__name__
 
 
 class DataSourceManager:
@@ -68,7 +74,7 @@ class DataSourceManager:
         failover_enabled: bool = True,
         circuit_breaker_enabled: bool = True,
         health_check_enabled: bool = True,
-        **config
+        **config,
     ):
         """
         初始化多数据源管理器
@@ -89,14 +95,14 @@ class DataSourceManager:
 
         # 配置参数
         self.config = {
-            'retry_count': 3,
-            'retry_delay': 1.0,
-            'circuit_breaker_threshold': 5,
-            'circuit_breaker_timeout': 60,
-            'health_check_interval': 30,
-            'request_timeout': 30,
-            'max_concurrent_requests': 5,
-            **config
+            "retry_count": 3,
+            "retry_delay": 1.0,
+            "circuit_breaker_threshold": 5,
+            "circuit_breaker_timeout": 60,
+            "health_check_interval": 30,
+            "request_timeout": 30,
+            "max_concurrent_requests": 5,
+            **config,
         }
 
         # 状态管理
@@ -111,10 +117,7 @@ class DataSourceManager:
                 self.add_datasource(ds, priority=i)
 
     def add_datasource(
-        self,
-        datasource: Any,
-        priority: int = 0,
-        weight: int = 1
+        self, datasource: Any, priority: int = 0, weight: int = 1
     ) -> None:
         """
         添加数据源
@@ -126,9 +129,7 @@ class DataSourceManager:
         """
         with self._lock:
             ds_info = DataSourceInfo(
-                datasource=datasource,
-                priority=priority,
-                weight=weight
+                datasource=datasource, priority=priority, weight=weight
             )
             # 生成唯一的数据源名称
             base_name = ds_info.name
@@ -158,7 +159,7 @@ class DataSourceManager:
             if ds_name_to_remove:
                 del self.datasources[ds_name_to_remove]
 
-    def execute_query(self, method_name: str, *args, **kwargs) -> Any:
+    def execute_query(self, method_name: str, *args, **kwargs) -> StockDataResult:
         """
         执行查询
 
@@ -175,7 +176,7 @@ class DataSourceManager:
         """
         # 检查并发限制
         with self._lock:
-            if self._concurrent_requests >= self.config['max_concurrent_requests']:
+            if self._concurrent_requests >= self.config["max_concurrent_requests"]:
                 raise Exception("达到最大并发请求数限制")
             self._concurrent_requests += 1
 
@@ -195,7 +196,9 @@ class DataSourceManager:
 
             for ds_info in ordered_datasources:
                 try:
-                    result = self._execute_single_query(ds_info, method_name, *args, **kwargs)
+                    result = self._execute_single_query(
+                        ds_info, method_name, *args, **kwargs
+                    )
                     return result
 
                 except Exception as e:
@@ -225,9 +228,11 @@ class DataSourceManager:
         with self._lock:
             healthy = []
             for name, ds_info in self.datasources.items():
-                if (ds_info.enabled and
-                    ds_info.circuit_breaker_state != CircuitBreakerState.OPEN and
-                    ds_info.success_rate > 0.5):
+                if (
+                    ds_info.enabled
+                    and ds_info.circuit_breaker_state != CircuitBreakerState.OPEN
+                    and ds_info.success_rate > 0.5
+                ):
                     healthy.append(name)
             return healthy
 
@@ -242,16 +247,16 @@ class DataSourceManager:
             stats = {}
             for name, ds_info in self.datasources.items():
                 stats[name] = {
-                    'priority': ds_info.priority,
-                    'weight': ds_info.weight,
-                    'enabled': ds_info.enabled,
-                    'total_requests': ds_info.total_requests,
-                    'failed_requests': ds_info.failed_requests,
-                    'success_rate': ds_info.success_rate,
-                    'avg_response_time': ds_info.avg_response_time,
-                    'circuit_breaker_state': ds_info.circuit_breaker_state.value,
-                    'last_error': ds_info.last_error,
-                    'last_error_time': ds_info.last_error_time
+                    "priority": ds_info.priority,
+                    "weight": ds_info.weight,
+                    "enabled": ds_info.enabled,
+                    "total_requests": ds_info.total_requests,
+                    "failed_requests": ds_info.failed_requests,
+                    "success_rate": ds_info.success_rate,
+                    "avg_response_time": ds_info.avg_response_time,
+                    "circuit_breaker_state": ds_info.circuit_breaker_state.value,
+                    "last_error": ds_info.last_error,
+                    "last_error_time": ds_info.last_error_time,
                 }
             return stats
 
@@ -268,11 +273,11 @@ class DataSourceManager:
         try:
             # 这里可以实现具体的健康检查逻辑
             # 比如调用数据源的健康检查方法
-            if hasattr(datasource, 'health_check'):
+            if hasattr(datasource, "health_check"):
                 return datasource.health_check()
 
             # 简单的可用性检查
-            return hasattr(datasource, 'query_history_k_data_plus')
+            return hasattr(datasource, "query_history_k_data_plus")
 
         except Exception:
             return False
@@ -311,8 +316,11 @@ class DataSourceManager:
             if self.circuit_breaker_enabled:
                 if ds_info.circuit_breaker_state == CircuitBreakerState.OPEN:
                     # 检查是否可以转为半开状态
-                    if (ds_info.circuit_breaker_last_failure_time and
-                        current_time - ds_info.circuit_breaker_last_failure_time > self.config['circuit_breaker_timeout']):
+                    if (
+                        ds_info.circuit_breaker_last_failure_time
+                        and current_time - ds_info.circuit_breaker_last_failure_time
+                        > self.config["circuit_breaker_timeout"]
+                    ):
                         ds_info.circuit_breaker_state = CircuitBreakerState.HALF_OPEN
                         ds_info.circuit_breaker_failure_count = 0
                     else:
@@ -322,7 +330,9 @@ class DataSourceManager:
 
         return available
 
-    def _order_datasources(self, datasources: List[DataSourceInfo]) -> List[DataSourceInfo]:
+    def _order_datasources(
+        self, datasources: List[DataSourceInfo]
+    ) -> List[DataSourceInfo]:
         """根据负载均衡策略排序数据源"""
         if self.load_balance_strategy == LoadBalanceStrategy.PRIORITY_FIRST:
             return sorted(datasources, key=lambda x: x.priority)
@@ -332,8 +342,13 @@ class DataSourceManager:
 
         elif self.load_balance_strategy == LoadBalanceStrategy.ROUND_ROBIN:
             if datasources:
-                self._round_robin_index = (self._round_robin_index + 1) % len(datasources)
-                return datasources[self._round_robin_index:] + datasources[:self._round_robin_index]
+                self._round_robin_index = (self._round_robin_index + 1) % len(
+                    datasources
+                )
+                return (
+                    datasources[self._round_robin_index :]
+                    + datasources[: self._round_robin_index]
+                )
 
         elif self.load_balance_strategy == LoadBalanceStrategy.WEIGHTED_ROUND_ROBIN:
             # 简化的加权轮询实现
@@ -341,7 +356,9 @@ class DataSourceManager:
             for ds_info in datasources:
                 weighted_list.extend([ds_info] * ds_info.weight)
             if weighted_list:
-                self._round_robin_index = (self._round_robin_index + 1) % len(weighted_list)
+                self._round_robin_index = (self._round_robin_index + 1) % len(
+                    weighted_list
+                )
                 selected = weighted_list[self._round_robin_index]
                 # 将选中的数据源放在第一位
                 return [selected] + [ds for ds in datasources if ds != selected]
@@ -351,7 +368,9 @@ class DataSourceManager:
 
         return datasources
 
-    def _execute_single_query(self, ds_info: DataSourceInfo, method_name: str, *args, **kwargs) -> Any:
+    def _execute_single_query(
+        self, ds_info: DataSourceInfo, method_name: str, *args, **kwargs
+    ) -> Any:
         """执行单个数据源的查询"""
         start_time = time.time()
 
@@ -405,7 +424,10 @@ class DataSourceManager:
                 ds_info.circuit_breaker_last_failure_time = current_time
 
                 # 检查是否需要触发熔断器
-                if ds_info.circuit_breaker_failure_count >= self.config['circuit_breaker_threshold']:
+                if (
+                    ds_info.circuit_breaker_failure_count
+                    >= self.config["circuit_breaker_threshold"]
+                ):
                     ds_info.circuit_breaker_state = CircuitBreakerState.OPEN
 
     def _periodic_health_check(self) -> None:
@@ -414,7 +436,10 @@ class DataSourceManager:
             return
 
         current_time = time.time()
-        if current_time - self._last_health_check < self.config['health_check_interval']:
+        if (
+            current_time - self._last_health_check
+            < self.config["health_check_interval"]
+        ):
             return
 
         self._last_health_check = current_time

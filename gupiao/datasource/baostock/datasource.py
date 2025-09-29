@@ -30,6 +30,11 @@ class BaostockDataSource(StockDataSource):
             raise ImportError("baostock 未安装，请运行: pip install baostock")
         self._is_logged_in = False
         self._logger = logging.getLogger(__name__)
+        login_result = self.login()
+        if not login_result.success:
+            self.logger.error(f"数据源登录失败: {login_result.error_msg}")
+            raise RuntimeError(f"数据源登录失败: {login_result.error_msg}")
+
 
     def __del__(self):
         """析构时自动登出"""
